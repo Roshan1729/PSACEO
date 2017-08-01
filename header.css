@@ -1,0 +1,648 @@
+﻿
+#s4-bodyContainer {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+.mainContainer {
+    width: 1600px;
+    height: auto;
+    min-height: 1000px;
+    margin: 0 auto;
+    border: 1px solid #c0c0c0;
+}
+
+.topHeader {
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 20px;
+    height: 60px;
+}
+
+.Rectangle-8 {
+    width: 100%;
+    height: 49px;
+    background-color: #fff;
+}
+
+.RectleftItemContainer {
+    margin-top: 18px;
+    float: left;
+    width: 50%;
+}
+
+#microsoftLogoContainer {
+    width: 115px;
+    height: 25px;
+    float: left;
+}
+
+    #microsoftLogoContainer img {
+        cursor: pointer;
+        height: 19px;
+        margin: 3px 0;
+    }
+
+.line {
+    width: 0;
+    height: 25px;
+    border-left: solid 1px #979797;
+    float: left;
+}
+
+#partnerNetworkContainer {
+    float: left;
+    width: 116px;
+    height: 25px;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.searchHeadingContainer {
+    height: 38px;
+}
+
+#sabTitle {
+    float: left;
+    height: 38px;
+    font-family: 'Segoe UI';
+    font-size: 32px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: -1px;
+}
+
+#sabUser {
+    float: right;
+    height: 38px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: -1px;
+}
+
+#searchMasterContainer {
+    float: left;
+}
+
+#searchMaster {
+    font-size: 14px;
+    line-height: 1.43;
+    width: 134px;
+    height: 26px;
+    padding: 2px 7px 4px 10px;
+    border: solid 2px #d2d2d2;
+    box-sizing: border-box;
+    float: left;
+    border-right: none;
+}
+
+#searchIcon {
+    background: url("/SiteAssets/Images/searchIcon.png") no-repeat;
+    width: 22px;
+    float: left;
+    height: 26px;
+    border: 2px solid #d2d2d2;
+    box-sizing: border-box;
+    border-left: none;
+    background-size: 20px 20px;
+    cursor: pointer;
+    background-color: #f3f3f3;
+}
+
+#topBannerNewsButton, #topBannerHelpButton {
+    width: 39px;
+    height: 24px;
+    font-size: 16px;
+    float: left;
+    line-height: 24px;
+    margin: 1px 0 1px 17px;
+}
+
+.socialMediaButtonsContainer {
+    margin-left: 5px;
+    height: 27px;
+    float: left;
+    margin-top: 5px;
+}
+
+.socialMeadiaLink {
+    font-size: 16px;
+    color: #737373;
+    margin-left: 14px;
+    line-height: 27px;
+    float: left;
+}
+
+#socialMediaFB {
+    color: #000;
+}
+
+.navigationBarMaster {
+    height: 74px;
+    background-color: #505050;
+    padding-left: 44px;
+}
+
+.navigationLinkMaster {
+    height: 74px;
+    color: #fff;
+    line-height: 74px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 300;
+    float: left;
+    margin-left: 4.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+
+    .navigationLinkMaster:hover {
+        background-color: #616161;
+    }
+
+.navigationBarMaster:first-child {
+    margin-left: 0;
+}
+
+.navigationBarSubLinkContainer {
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    top: 74px;
+}
+
+.navigationLinkMaster:hover .navigationBarSubLinkContainer {
+    display: block;
+}
+
+.navigationBarSubLink {
+    width: 350px;
+    height: 68px;
+    line-height: 68px;
+    clear: both;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: #505050;
+    position: relative;
+    display: none;
+}
+
+    .navigationBarSubLink:hover {
+        background-color: #737373;
+    }
+
+.navigationBarSubLinkMenuCascadeRight {
+    width: 370px;
+    background-color: #717171;
+    position: absolute;
+    z-index: 5;
+    left: 370px;
+    top: 0;
+    display: none;
+}
+
+.navigationBarSubLink:hover .navigationBarSubLinkMenuCascadeRight {
+    display: block;
+}
+
+.navigationLinkMaster:hover .navigationBarSubLink {
+    display: block;
+}
+
+.flyoutItem {
+    height: 46px;
+    line-height: 20px;
+    padding-top: 22px;
+    text-align: left;
+    padding-left: 20px;
+    width: 94.5%;
+}
+
+    .flyoutItem:hover {
+        background-color: #7f7f7f;
+    }
+
+.footer {
+    /* width: calc(100% - 135px); */
+    padding-left: 64px;
+    padding-top: 31px;
+    height: 80px;
+    background-color: #e6e6e6;
+}
+
+#leftFooterSection {
+    /* float: left; */
+    /* width: 300px; */
+    /* margin-top: -7px; */
+}
+
+#softwareAssuranceFooter {
+    /* height: 100px; */
+    font-size: 20px;
+}
+
+#footerSignUpText {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+    #footerSignUpText:hover {
+        text-decoration: underline;
+    }
+
+.SAPSButton {
+    min-width: 120px;
+    max-width: 320px;
+    height: 40px;
+    background-color: #5c2d91;
+    color: #fff;
+    text-align: center;
+    margin-top: 12px;
+    padding: 12px 25px;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+    .SAPSButton span {
+        float: none;
+        margin-left: 8px;
+    }
+
+        .SAPSButton span img {
+            margin-top: 2px;
+            height: 14px;
+            width: 7px;
+        }
+
+.SAPSButtonText {
+    max-width: 232px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#contactHelpContainer {
+    margin-top: 15px;
+    height: 25px;
+}
+
+#footerContactUs {
+    width: 79px;
+    color: #4a4a4a;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#footerHelp {
+    width: 35px;
+    color: #4a4a4a;
+    margin-left: 32px;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#footerFollowUs {
+    margin-top: 22px;
+    clear: both;
+    height: 24px;
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#footerSocialMediaContainer {
+    margin-top: 5px;
+    height: 10px;
+}
+
+.footerSocialMediaLink {
+    margin-left: 22px;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#middleFooterSection {
+    float: left;
+    margin-left: 70px;
+    width: 148px;
+}
+
+.footerMiddleLink {
+    width: 162px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    clear: both;
+}
+
+    .footerMiddleLink:first-child {
+        margin-top: 0;
+    }
+
+#rightFooterSection {
+    float: left;
+    margin-left: 84px;
+    width: 556px;
+}
+
+.footerRightService {
+    width: 554px;
+    height: 24px;
+    clear: both;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+    .footerRightService:first-child {
+        margin-top: 0;
+        font-weight: 600;
+    }
+
+#bottomBanner {
+    background-image: url("/SiteAssets/Images/HomePage_BottomBanner.png");
+    width: 100%;
+    height: 556px;
+}
+
+#topBanner {
+    background-image: url("/SiteAssets/Images/SATBBanner.png");
+    background-size: 100%;
+}
+
+.ms-webpartzone-cell {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.ms-webpartzone-cell, .ms-webpart-zone {
+    border-collapse: collapse;
+}
+
+.customBox {
+    background: url("/SiteAssets/Images/combined-shape.png");
+}
+
+.customBoxHalfArrow {
+    background: url("/SiteAssets/Images/combined-shape-halfarrow.png");
+}
+
+.downArrowContainer {
+    float: left;
+    margin-left: -40px;
+    margin-top: 2px;
+}
+
+.masterNavDownArrow {
+    float: left;
+    margin-left: 7.5px;
+}
+
+.navigationMasterItemTitle {
+    float: left;
+}
+
+.searchHeadingRightContainer {
+    float: right;
+    margin-right: 55px;
+    height: 26px;
+    margin: 6px 0;
+}
+
+.socialMeadiaLink {
+    cursor: pointer;
+}
+
+.socialMediaFB {
+    background: url("/SiteAssets/Images/facebook.png") no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+    .socialMediaFB:hover {
+        background: url("/SiteAssets/Images/facebook-black.png") no-repeat;
+    }
+
+.socialMediaTwitter {
+    background: url("/SiteAssets/Images/twitter.png") no-repeat;
+    width: 17px;
+    height: 14px;
+}
+
+    .socialMediaTwitter:hover {
+        background: url("/SiteAssets/Images/twitter-black.png") no-repeat;
+    }
+
+.socialMediaLinkedIn {
+    background: url("/SiteAssets/Images/linked-in.png") no-repeat;
+    width: 17px;
+    height: 15px;
+}
+
+    .socialMediaLinkedIn:hover {
+        background: url("/SiteAssets/Images/linked-in-black.png") no-repeat;
+    }
+
+#footerSocialMediaFB {
+    margin-left: 0;
+}
+
+#aboutPageimgWrapper {
+    background: url('/SiteAssets/Images/aboutWrapper.png');
+    height: 489px;
+    background-size: 100%;
+    margin-top: 50px;
+}
+
+#customersPageImgWrapper {
+    background: url('/SiteAssets/Images/lobby.png');
+    height: 559px;
+    background-size: 100%;
+}
+
+.accordianItemContainer .accordinaExpIcon {
+    background: url('/SiteAssets/Images/accordion-expand-sm.png') no-repeat;
+}
+
+    .accordianItemContainer .accordinaExpIcon:hover {
+        background: url('/SiteAssets/Images/accordion-expand-sm-hover.png') no-repeat;
+    }
+
+.getpaid-content2-shape {
+    width: 305.8px;
+    height: 170px;
+    background-image: url('/SiteAssets/Images/combined-shape.png');
+    background-size: 305.8px 170px;
+    float: left;
+}
+
+#getpaid-end-shape {
+    background-image: url('/SiteAssets/Images/combined-shape-end.png');
+    background-size: 311px 170px;
+    margin-left: -26px;
+    width: 310px;
+    background-repeat: no-repeat;
+}
+
+.variationLink, .variationLinkCurrent {
+    cursor: pointer;
+}
+
+    .variationLink:hover, .variationLinkCurrent:hover {
+        text-decoration: underline;
+    }
+
+.footerLegalItem {
+    margin-right: 30px;
+    float: left;
+    display: block;
+}
+
+    .footerLegalItem:last-child {
+        margin-right: 0;
+        color: #000;
+        text-decoration: none;
+    }
+
+        .footerLegalItem:last-child::before {
+            content: "©" attr(data-year)" ";
+        }
+
+.navigationLinkMaster:first-child {
+    margin-left: 0;
+}
+
+#languagesContainer {
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 100px;
+    padding: 0;
+    border: 1px solid #d2d2d2;
+    margin-left: -30px;
+}
+
+#downArrowLang {
+    background-image: url(/SiteAssets/Images/chevron-down-dark.png);
+    width: 7px;
+    height: 4px;
+    display: inline-block;
+    margin: 8px 8px;
+}
+
+.languageOpt:hover {
+    background-color: #808080;
+    cursor: pointer;
+    color: #fff;
+}
+
+.languageOpt {
+    padding: 5px 10px;
+}
+
+#selectedLang {
+    float: left;
+    line-height: 20px;
+}
+
+.alertData {
+    width: 870px;
+    float: left;
+    background-color: #fff4d9;
+    margin-top: 17px;
+    padding-top: 18px;
+    box-sizing: border-box;
+    padding-bottom: 22px;
+}
+
+.alertImage {
+    width: 36px;
+    height: 36px;
+    margin-left: 20px;
+    float: left;
+}
+
+.alertText {
+    width: 774px;
+    margin-left: 24px;
+    float: left;
+}
+
+.tipContainer {
+    width: 870px;
+    float: left;
+    background-color: #ded5e9;
+    padding-left: 21px;
+    box-sizing: border-box;
+    margin-top: 32px;
+    padding-top: 13px;
+    padding-bottom: 23px;
+}
+
+.tipHeading {
+    width: 37px;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+.tipContent {
+    width: 824px;
+    float: left;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #4a4a4a;
+    margin-top: 11px;
+}
+
+.customStyleTable {
+    border: solid 2px #d2d2d2;
+    margin-top: 18px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.customTableHeader {
+    background-color: #e6e6e6;
+    height: 100%;
+    padding: 15px;
+    border-right: 2px solid #d2d2d2;
+    border-bottom: 2px solid #d2d2d2;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.customTableRow {
+    padding: 15px;
+    border-right: 2px solid #d2d2d2;
+    border-bottom: 2px solid #d2d2d2;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a:link, a:visited, a:hover {
+    color: #0072c6;
+}
